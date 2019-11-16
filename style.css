@@ -19,12 +19,23 @@
     color:#f3f3f3;
     transform: translate(-50%,-50%);
 }
+.col-md-4{
+    padding:0;
+}
 .intro-box h1{
     margin:0;
 }
 h5{
     text-align:center;
     padding:8px 0px;
+}
+.img-box{
+    width:100%;
+    height:215px;
+}
+img{
+      width:100%;
+      height:100%;
 }
 .skill-box{
     border:solid 2px black;
