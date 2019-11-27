@@ -3,6 +3,72 @@
     padding:0px;
         font-family: 'Raleway';
 }
+.nav {
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    background-color: #0000006a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    /*rgb(19, 19, 19)*/
+}
+
+.logo {
+    flex: 1;
+    padding-left: 20px;
+    color:#f2f2f2;
+}
+.name{
+    margin-bottom:0;
+    font-family: 'Dancing Script',
+    cursive;
+}
+
+.nav-link-box ul {
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 24px;
+    display: none;
+}
+
+.nav-links li {
+    list-style: none;
+    margin: 10px;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d5d5d5;
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    color: #d5d5d5;
+}
+#toggle-menu{
+    width:30px;
+}
+
+
+
+
+
+
+
+
+
+
 .jumbotron{
    height:100vh;
     background:url('./Images/starry-night-2.jpg');
@@ -71,5 +137,33 @@ img{
     }
     .skill-box-1,.skill-box-2,.skill-box-3{
         margin-bottom:10px;
+    }
+    .navbar-toggle {
+        display: block;
+        margin-left: 5px;
+
+    }
+    .name{
+        padding: 8px 0;
+    }
+    .logo {
+        margin-right: 50px;
+    }
+
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-link-box {
+        display: none;
+    }
+
+    .nav-links {
+        flex-direction: column;
+
+    }
+
+    .active {
+        display: block;
     }
 }
