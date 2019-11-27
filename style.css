@@ -33,7 +33,7 @@
 
 .navbar-toggle {
     position: absolute;
-    top: 3px;
+    top: 7px;
     right: 20px;
     cursor: pointer;
     color: rgba(255, 255, 255, 0.8);
@@ -57,7 +57,7 @@
     color: #d5d5d5;
 }
 #toggle-menu{
-    width:30px;
+    width:35px;
 }
 
 
