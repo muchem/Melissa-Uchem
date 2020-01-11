@@ -1,7 +1,7 @@
 *{
-    margin:0px;
-    padding:0px;
-        font-family: 'Raleway';
+    margin:0;
+    padding:0;
+    font-family: 'Raleway';
 }
 .nav {
     display: flex;
@@ -14,7 +14,9 @@
     z-index: 1;
     /*rgb(19, 19, 19)*/
 }
-
+.jumbotron{
+    margin-bottom:0px;
+}
 .logo {
     flex: 1;
     padding-left: 20px;
@@ -65,13 +67,19 @@
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    margin-bottom:0px;
+    margin:0px;
 }
 #eye{
     width:60px;
 }
+h{
+    color:#1a1a1a;
+}
 #code{
     width:65px;
+}
+.container-fluid{
+    padding: 30px 0 80px 0;
 }
 .intro-box{
     text-align:center;
@@ -118,7 +126,7 @@ img{
     padding-bottom:25px;
 }
 .skill-box-1{
-    border:solid 2px rgb(255, 94, 94);
+    border:solid 2px rgb(255, 42, 42);
      
 }
 .skill-box-2{
