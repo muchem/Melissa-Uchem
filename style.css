@@ -185,6 +185,9 @@ img{
     }
 }
 @media screen and (max-width:576px){
+    .intro-box h1{
+        font-size:2rem;
+    }
     .skill-container{
         flex-direction:column;
     }
