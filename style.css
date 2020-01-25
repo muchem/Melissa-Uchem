@@ -141,7 +141,25 @@ img{
 }
 .skill-container{
     display: flex;
+    text-align:center;
     justify-content: space-around;
+}
+.skill{
+    background-color:rgb(246, 136, 136);
+    transition: 0.3s;
+    border-radius:2px;
+    width:100%;
+    margin:5px;
+    color:white;
+ 
+}
+.skill:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.skill h4{
+    margin:0;
+    padding: 3px 0;
 }
 .sec-header{
     text-align:center;
@@ -151,7 +169,7 @@ img{
 .banner{
     color:white;
     padding: 25vh 0;
-    margin-bottom:30px;
+    margin:30px 0;
     background:url('Images/project-hero.jpg');
     background-repeat: no-repeat;
     background-position:center;
