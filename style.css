@@ -73,7 +73,7 @@
     width:60px;
 }
 .logo-hero{
-    width:60px;
+    width:50px;
 }
 h{
     color:#1a1a1a;
@@ -91,6 +91,10 @@ h{
     left:50%;
     color:#f3f3f3;
     transform: translate(-50%,-50%);
+}
+
+.intro-box h4{
+    margin-bottom:30px
 }
 .col-md-4{
     padding:0;
@@ -119,26 +123,7 @@ img{
       height:100%;
       color:rgba(68, 68, 68, 0.842);
 }
-.skill-box{
-    border:solid 2px rgb(29, 29, 29);
-}
-.skill-list{
-    margin-left:30px;
-    padding-right:150px;
-    padding-bottom:25px;
-}
-.skill-box-1{
-    border:solid 2px rgb(255, 42, 42);
-     
-}
-.skill-box-2{
-      border:solid 2px rgb(68, 68, 68);
-       
-}
-.skill-box-3{
-      border:solid 2px rgb(255, 158, 234);
 
-}
 .skill-container{
     display: flex;
     text-align:center;
@@ -178,13 +163,17 @@ img{
 .about-banner{
     color:white;
     padding: 25vh 0;
-    margin:35px 0;
+    margin:35px 0 0 0;
     margin-bottom:30px;
     background:url("Images/About-Hero\ \(2\).jpg");
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     text-align:center;
+}
+ion-icon{
+    font-size:50px;
+    color:white;
 }
 .skill-banner{
     background-color: rgb(240, 240, 240); 
@@ -194,6 +183,49 @@ img{
 }
 section p{
     font-size:20px;
+}
+.contact-sec{
+    background: #e53935;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 10vh 0;
+    color:#FFFFFF;
+}
+.copyright{
+   background-color:black;
+
+}
+.work-link{
+    color:white;
+    border: solid 1px white;
+    padding:15px;
+    color:white;
+    border-radius: 2px;
+
+}
+.work-link:hover{
+    color:red;
+    text-decoration: none;
+    background-color:white;
+    transition: 1s;
+}
+.email-bnt{
+    background:tomato; 
+    border: solid 1px white;
+    padding:15px;
+    color:white;
+    margin-bottom:16px;
+}
+.email-bnt:hover{
+    color:tomato;
+    background:white;
+    transition: 1s;
+}
+.copyright p{
+    margin:0;
+    padding:3px 0;
+    color:#f2f2f2;
+    font-size:18px;
 }
 @media screen and (max-width:992px){
       .skill-list {
