@@ -3,6 +3,7 @@
     padding:0;
     font-family: 'Raleway';
 }
+
 .nav {
     display: flex;
     padding: 0 10px;
@@ -190,6 +191,7 @@ section p{
     background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10vh 0;
     color:#FFFFFF;
+    font-family: 'Heebo', sans-serif;
 }
 .copyright{
    background-color:black;
@@ -227,6 +229,7 @@ section p{
     color:#f2f2f2;
     font-size:18px;
 }
+
 @media screen and (max-width:992px){
       .skill-list {
           padding-right: 130px;
