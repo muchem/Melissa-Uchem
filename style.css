@@ -234,6 +234,9 @@ section p{
       .skill-list {
           padding-right: 130px;
       }
+      .col-md-6 p{
+        font-size:14px;
+    }
 }
 @media screen and (max-width:768px){
      .skill-list {
@@ -246,6 +249,7 @@ section p{
         align-items:center;
         margin:auto;
     }
+ 
 }
 @media screen and (max-width:576px){
     .intro-box h1{
@@ -289,7 +293,9 @@ section p{
         flex-direction: column;
 
     }
-
+    .col-md-6 p{
+        font-size:16px;
+    }
     .active {
         display: block;
     }
