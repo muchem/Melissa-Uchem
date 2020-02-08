@@ -255,6 +255,9 @@ section p{
     .intro-box h1{
         font-size:2.5rem;
     }
+    .skill:hover{
+        transform: scale(1.0);
+    }
     .intro-box{
         top:50%;
     }
