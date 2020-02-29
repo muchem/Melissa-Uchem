@@ -255,17 +255,17 @@ section p{
     .skill{
         margin-left:0;
     }
-   /* .greet-Txt{
-        font-size:25px;
+    .greet-Txt{
+        font-size:30px;
     }
     .sub-txt{
-        font-size:18px;
-    }*/
+        font-size:22px;
+    }
     .skill:hover{
         transform: scale(1.0);
     }
     .intro-box{
-        top:50%;
+        top:45%;
     }
     .skill-container{
         flex-direction:column;
