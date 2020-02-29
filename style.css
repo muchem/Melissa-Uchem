@@ -252,9 +252,15 @@ section p{
  
 }
 @media screen and (max-width:576px){
-    .intro-box h1{
-        font-size:2.5rem;
+    .skill{
+        margin-left:0;
     }
+   /* .greet-Txt{
+        font-size:25px;
+    }
+    .sub-txt{
+        font-size:18px;
+    }*/
     .skill:hover{
         transform: scale(1.0);
     }
