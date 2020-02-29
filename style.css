@@ -229,7 +229,9 @@ section p{
     color:#f2f2f2;
     font-size:18px;
 }
-
+.greet-Txt{
+    font-weight:bold;
+}
 @media screen and (max-width:992px){
       .skill-list {
           padding-right: 130px;
